@@ -1,0 +1,89 @@
+#skills {
+  /* overflow: hidden;
+  width: 100vw;
+  height: 130vh;
+  max-width: 85rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; */
+  /* margin: -45rem 1rem 1rem 1rem; */
+
+  margin: -8rem 9rem 9rem 25rem;
+  height: 100vh;
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 5rem;
+  margin-bottom: 1.5rem;
+  text-decoration: underline rgb(244, 129, 129);
+}
+
+.paras {
+  font-weight: 2000;
+  font-size: 1.1rem;
+  max-width: 50rem;
+  /* padding: -3rem 2rem; */
+}
+.skillbars {
+  margin: 1rem;
+  width: 96vw;
+  max-width: 60%;
+  text-align: left;
+  padding: 0.2rem;
+}
+
+.skillbar {
+  display: flex;
+  margin: 0.5rem;
+  /* padding: 0.45rem; */
+  background: rgb(104, 96, 96);
+  border-radius: 9px;
+  padding: 1.2rem;
+}
+.skillimage {
+  object-fit: cover;
+  height: 3.5rem;
+  width: 4.5rem;
+  margin-right: 2rem;
+}
+.skilltexts {
+  font-size: 300;
+  font-weight: 600;
+}
+
+/* @keyframes slideIn {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} 
+
+.skilltexts h2.animateTitle {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: slideIn 1s ease-in-out; /* Adjust the duration and timing function as needed 
+} */
+
+.skilltexts > p {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 720px) {
+  .skilltexts > p {
+    font-size: 2vm;
+  }
+}

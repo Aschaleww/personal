@@ -1,0 +1,86 @@
+#con {
+  min-height: calc(100vh-4rem);
+  width: 100vh;
+  max-width: 95rem;
+  margin: 8rem 28rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.pagetitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+.des {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.images {
+  /* margin: 1rem; */
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.img {
+  object-fit: cover;
+  width: 30%;
+  min-width: 12rem;
+  height: 7rem;
+  padding: 0.55rem;
+}
+
+#contacts {
+  padding: 1.5rem;
+}
+.descr {
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+.forms {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 900vw;
+  max-width: 90rem;
+}
+.in,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background: rgb(40, 40, 40);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
+.sub {
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 1rem auto; */
+}
+.link {
+  object-fit: cover;
+  width: 3rem;
+  height: 2rem;
+  margin: 0.9rem 0.75rem;
+  cursor: pointer;
+  object-fit: cover;
+}

@@ -1,0 +1,74 @@
+#intro {
+  height: 90vh;
+  width: 100vw;
+  max-width: 80rem;
+  margin: -6rem 1rem 9rem 10rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.bg {
+  position: absolute;
+  top: 10rem;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+  height: 50vh;
+  width: 24vw;
+  border-radius: 15rem;
+}
+/* .bg {
+  height: 25rem;
+  width: 25rem;
+  object-fit: cover;
+  border-radius: 2rem;
+} */
+
+.myintro {
+  /* margin-top: -50px; */
+  font-size: 1.5rem;
+  margin-left: 10rem;
+}
+.und {
+  text-decoration: underline;
+  color: brown;
+}
+.hello {
+  font-size: 1.75rem;
+  font-weight: 100;
+  margin-left: 5rem;
+}
+.name {
+  color: yellow;
+  padding: 1rem;
+  font-size: x-large;
+  font-weight: 200;
+}
+.para {
+  font-size: 1.2rem;
+}
+.frontend {
+  font-size: 1.2rem;
+}
+.strong {
+  font-size: 1.2rem;
+}
+.hire {
+  margin: 2rem 9rem;
+  background: white;
+  font-size: large;
+  font-weight: 100;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+/* @media screen and (max-width: 840px) {
+  .bg {
+    right: -10vw;
+  }
+  .myintro {
+    font-size: 10vw;
+  } 
+}*/
